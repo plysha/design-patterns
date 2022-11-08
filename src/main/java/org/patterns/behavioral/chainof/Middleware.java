@@ -1,4 +1,4 @@
-package org.patterns.chainof.middleware;
+package org.patterns.behavioral.chainof;
 
 /**
  * Базовый класс цепочки.

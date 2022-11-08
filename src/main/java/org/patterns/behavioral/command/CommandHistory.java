@@ -1,4 +1,4 @@
-package org.patterns.command;
+package org.patterns.behavioral.command;
 
 import java.util.Stack;
 

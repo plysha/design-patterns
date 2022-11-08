@@ -1,6 +1,4 @@
-package org.patterns.chainof.middleware.server;
-
-import org.patterns.chainof.middleware.Middleware;
+package org.patterns.behavioral.chainof;
 
 import java.util.HashMap;
 import java.util.Map;

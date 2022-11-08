@@ -1,6 +1,4 @@
-package org.patterns.chainof.middleware;
-
-import org.patterns.chainof.middleware.server.Server;
+package org.patterns.behavioral.chainof;
 
 import java.io.BufferedReader;
 import java.io.IOException;

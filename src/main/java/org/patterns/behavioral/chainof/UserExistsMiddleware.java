@@ -1,6 +1,4 @@
-package org.patterns.chainof.middleware;
-
-import org.patterns.chainof.middleware.server.Server;
+package org.patterns.behavioral.chainof;
 
 public class UserExistsMiddleware extends Middleware {
     private Server server;

@@ -1,4 +1,4 @@
-package org.patterns.command;
+package org.patterns.behavioral.command;
 
 public class Demo {
     public static void main(String[] args) {

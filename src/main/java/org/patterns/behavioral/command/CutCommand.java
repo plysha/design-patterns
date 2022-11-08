@@ -1,4 +1,4 @@
-package org.patterns.command;
+package org.patterns.behavioral.command;
 
 public class CutCommand extends Command {
     public CutCommand(Editor editor) {

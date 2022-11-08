@@ -1,4 +1,4 @@
-package org.patterns.command;
+package org.patterns.behavioral.command;
 
 public class CopyCommand extends Command {
     public CopyCommand(Editor editor) {

@@ -1,4 +1,4 @@
-package org.patterns.chainof.middleware;
+package org.patterns.behavioral.chainof;
 
 public class ThrottlingMiddleware extends Middleware {
     private int requestPreMinute;
