@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa704379-be84-4c75-8466-2727fd18a5b8" name="Changes" comment="Reorganise">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patterns/structural/adapter/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patterns/structural/adapter/adapters/SquarePegAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patterns/structural/adapter/round/RoundHole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patterns/structural/adapter/round/RoundPeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patterns/structural/adapter/square/SquarePeg.java" afterDir="false" />
+    <list default="true" id="aa704379-be84-4c75-8466-2727fd18a5b8" name="Changes" comment="Update git ignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patterns/creational/factorymethod/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patterns/creational/factorymethod/buttons/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patterns/creational/factorymethod/buttons/HtmlButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patterns/creational/factorymethod/buttons/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patterns/creational/factorymethod/factory/Dialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patterns/creational/factorymethod/factory/HtmlDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patterns/creational/factorymethod/factory/WindowsDialog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/patterns/App.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,13 +55,26 @@
       <recent name="org.patterns.command" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.patterns.structural.adapter.Demo">
+  <component name="RunManager" selected="Application.org.patterns.creational.factorymethod.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.patterns.command.Demo" />
       <module name="designpatterns2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.patterns.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.patterns.creational.factorymethod.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.patterns.creational.factorymethod.Demo" />
+      <module name="designpatterns2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.patterns.creational.factorymethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.patterns.creational.factorymethod.Demo" />
         <item itemvalue="Application.org.patterns.structural.adapter.Demo" />
         <item itemvalue="Application.Demo" />
       </list>
@@ -97,7 +113,7 @@
       <updated>1667750672336</updated>
       <workItem from="1667750674137" duration="2486000" />
       <workItem from="1667889623602" duration="5346000" />
-      <workItem from="1667998512883" duration="1481000" />
+      <workItem from="1667998512883" duration="3444000" />
     </task>
     <task id="LOCAL-00001" summary="Add Chain of Responsibilities example">
       <created>1667756904219</created>
@@ -134,7 +150,28 @@
       <option name="project" value="LOCAL" />
       <updated>1667907728966</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add adapter pattern example">
+      <created>1668000619184</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668000619184</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update git ignore">
+      <created>1668000677376</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668000677376</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update git ignore">
+      <created>1668000722163</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668000722163</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +192,8 @@
     <MESSAGE value="Add Chain of Responsibilities example" />
     <MESSAGE value="Add Command pattern example" />
     <MESSAGE value="Reorganise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganise" />
+    <MESSAGE value="Add adapter pattern example" />
+    <MESSAGE value="Update git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update git ignore" />
   </component>
 </project>
